@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#bio">Biografia</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="bio">
+            <h1>Minha Biografia</h1>
+            <img src="images/perfil.jpg" alt="Foto de Perfil" class="profile-img">
+            <p>Olá! Meu nome é Pedro Henrique Sousa Oliveira e sou desenvolvedor web com 20 anos. Desde pequeno, sempre tive um grande interesse por tecnologia e programação. Aos 15 anos, comecei a explorar o mundo da programação através de tutoriais online e rapidamente me apaixonei por criar soluções digitais.</p>
+            <p>Durante o ensino médio, participei de várias competições de programação e fui premiado em duas delas, o que me incentivou a seguir a carreira de desenvolvedor. Após concluir o ensino médio, ingressei em um curso de Ciência da Computação, onde aprendi sobre diversas tecnologias e desenvolvi projetos inovadores.</p>
+            <p>Tenho experiência em desenvolvimento web, incluindo front-end e back-end, e sou especializado em criar sites responsivos e aplicativos interativos. Além disso, tenho um grande interesse em UX/UI design, o que me ajuda a criar interfaces intuitivas e agradáveis para os usuários.</p>
+            <p>Atualmente, estou trabalhando em projetos freelance e continuo a aprender novas tecnologias para aprimorar minhas habilidades. Estou sempre em busca de desafios que me ajudem a crescer como profissional e a contribuir para a criação de soluções tecnológicas inovadoras.</p>
+        </section>
+        <section id="projects">
+            <h2>Meus Projetos</h2>
+            <div class="project">
+                <img src="images/portfolio.jpg" alt="Projeto Portfolio" class="project-img">
+                <h3>Portfolio Online</h3>
+                <p>Desenvolvi um portfólio online interativo para exibir meus projetos e habilidades. O site é responsivo e utiliza tecnologias modernas como HTML5, CSS3 e JavaScript.</p>
+            </div>
+            <div class="project">
+                <img src="images/tasks.jpg" alt="Projeto Gerenciamento de Tarefas" class="project-img">
+                <h3>Sistema de Gerenciamento de Tarefas</h3>
+                <p>Criei um sistema web para gerenciar tarefas e projetos, permitindo aos usuários criar, editar e acompanhar suas tarefas diárias. Utiliza uma arquitetura baseada em APIs e uma interface de usuário intuitiva.</p>
+            </div>
+            <div class="project">
+                <img src="images/blog.jpg" alt="Projeto Blog" class="project-img">
+                <h3>Blog de Tecnologia</h3>
+                <p>Desenvolvi um blog sobre tecnologia onde compartilho notícias, tutoriais e análises de produtos. O blog é integrado com um sistema de comentários e possui um design limpo e moderno.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" value="Pedro Henrique Sousa Oliveira" readonly>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="ph583302@gmail.com">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pedro Henrique Sousa Oliveira. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
